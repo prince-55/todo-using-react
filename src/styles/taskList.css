@@ -1,0 +1,38 @@
+/*  css file for the todos lists */
+.list-container{
+    background-color: aquamarine;
+    width: 60%;
+    margin: 20px auto;
+    padding: 5px  10px;
+    margin-right: auto !important;
+    border-radius: 10px;
+  }
+  
+  .list-container ul{
+    margin:15px 5px;
+    display:flex;
+    align-items: center;
+    padding:0px;
+  }
+  
+  .icons{
+    width:22%;
+    text-align: center;
+    cursor:pointer;
+  }
+  
+  .completed-span{
+    width:22%;
+    text-align: center;
+      
+  }
+
+  .css-ahj2mt-MuiTypography-root{
+    font-family: "Neucha", cursive !important;;
+  }
+  
+  @media (max-width:425px){
+    .icons , .completed-span{
+        width:43%;
+    }
+  }

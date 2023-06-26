@@ -1,0 +1,40 @@
+.input-box-todo{
+    margin: 30px 0px;
+    height: 40px;;
+    width: 30vw;
+    border-radius: 5px;
+    outline: none;
+    font-size: large;
+    text-align: center;
+  }
+  
+  .add-btn{
+    width:45px;
+    font-size: 25px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:yellow;
+    margin: auto;
+    display: block;
+    margin-bottom: 25px;
+  }
+  .label{
+    display: block;
+    margin: 0 10px;
+}
+  
+  @media (max-width:425px) {
+    .input-box-todo{
+        width:100%;
+        margin:15px 0px;
+        display: block;
+    }
+    .label{
+        text-align: center;
+    }
+    .add-btn{
+        margin:auto;
+        display:block;
+        margin-bottom: 25px;
+    }
+  }
