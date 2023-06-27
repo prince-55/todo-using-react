@@ -18,8 +18,14 @@
   z-index: 1;
   text-align: center;
 }
-.filter-label{
+
+.filter-label {
   text-align: center;
+}
+
+.MuiTypography-root {
+  font-family: "Neucha", cursive !important;
+  ;
 }
 
 @media (max-width: 800px) {
@@ -28,12 +34,12 @@
     font-size: 35px;
   }
 
-  @media (max-width : 425px){
-   .radio-class{ 
-    width: 80%;
-    margin: auto;
-    align-items: center;
-    justify-content:center;
-  }
+  @media (max-width : 425px) {
+    .radio-class {
+      width: 80%;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }

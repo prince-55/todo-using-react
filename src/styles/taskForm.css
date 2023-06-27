@@ -1,41 +1,45 @@
-.input-box-todo{
-    margin: 30px 0px;
-    height: 40px;;
-    width: 30vw;
-    border-radius: 5px;
-    outline: none;
-    font-size: large;
-    text-align: center;
+.input-box-todo {
+  margin: 30px 0px;
+  height: 40px;
+  ;
+  width: 30vw;
+  border-radius: 5px;
+  outline: none;
+  font-size: large;
+  text-align: center;
+}
+
+.add-btn {
+  width: 45px;
+  font-size: 25px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: yellow;
+  margin: auto;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.date-label {
+  margin: 0 15px;
+}
+
+@media (max-width:425px) {
+  .input-box-todo {
+    width: 100%;
+    margin: 15px 0px;
+    display: block;
   }
-  
-  .add-btn{
-    width:45px;
-    font-size: 25px;
-    height: 45px;
-    border-radius: 50%;
-    background-color:yellow;
+
+  .date-label {
+    display: block;
+    text-align: center;
+    margin: 0 0px;
+  }
+
+  .add-btn {
     margin: auto;
     display: block;
     margin-bottom: 25px;
   }
-  .date-label{
-    margin: 0 15px;
 }
-  
-  @media (max-width:425px) {
-    .input-box-todo{
-        width:100%;
-        margin:15px 0px;
-        display: block;
-    }
-    .date-label{
-        display: block;
-        text-align: center;
-        margin:0 0px;
-    }
-    .add-btn{
-        margin:auto;
-        display:block;
-        margin-bottom: 25px;
-    }
-  }
