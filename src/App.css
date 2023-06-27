@@ -18,7 +18,9 @@
   z-index: 1;
   text-align: center;
 }
-
+.filter-label{
+  text-align: center;
+}
 
 @media (max-width: 800px) {
   .heading {

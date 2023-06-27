@@ -24,7 +24,7 @@ function TaskForm(props) {
         value={inputText.name || ""}
         onChange = {onHandleChange}
       />
-      <label htmlFor='due'> Due Date</label>
+      <label htmlFor='due' className='date-label'> Due Date</label>
       <input
         name = "due"
         type="date"

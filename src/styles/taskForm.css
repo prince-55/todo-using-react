@@ -18,9 +18,8 @@
     display: block;
     margin-bottom: 25px;
   }
-  .label{
-    display: block;
-    margin: 0 10px;
+  .date-label{
+    margin: 0 15px;
 }
   
   @media (max-width:425px) {
@@ -29,8 +28,10 @@
         margin:15px 0px;
         display: block;
     }
-    .label{
+    .date-label{
+        display: block;
         text-align: center;
+        margin:0 0px;
     }
     .add-btn{
         margin:auto;

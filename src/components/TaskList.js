@@ -8,7 +8,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function TaskList(props) {
     const [edit, setEdit] = useState(false);
-    const { listTodo } = props
+    const { listTodo, setListTodo } = props
     const { id, name, due, done } = props.item
     const handleStatus = () => {
         listTodo?.map((todo) => {
@@ -16,6 +16,7 @@ function TaskList(props) {
                 todo.done = true;
             }
         })
+        setListTodo([...listTodo])
     }
     return (
         <>

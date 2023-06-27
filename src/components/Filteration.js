@@ -23,7 +23,7 @@ function Filteration({listTodo, setFilteredList}) {
     }
   return (
     <FormControl>
-      <FormLabel id="demo-row-radio-buttons-group-label">Filter</FormLabel>
+      <FormLabel id="demo-row-radio-buttons-group-label" className="filter-label">Filter</FormLabel>
       <RadioGroup
         row
         aria-labelledby="demo-row-radio-buttons-group-label"

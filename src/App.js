@@ -19,7 +19,6 @@ function App() {
     if (inputText.name !== "") {
       setListTodo([...listTodo, { id: uuidv4(), ...inputText }])
     }
-
   }
 
   // to delete the todo
@@ -39,7 +38,7 @@ function App() {
       <div className='list-container'>
         {filteredList?.map((listItem, i) => {
           return (
-            <TaskList key={listItem.id} index={i} item={listItem} deleteItem={deleteListItem} listTodo={listTodo} />
+            <TaskList key={listItem.id} index={i} item={listItem} deleteItem={deleteListItem} listTodo={listTodo} setListTodo={setListTodo}  setFilteredList={setFilteredList}/>
           )
         })}
       </div>
